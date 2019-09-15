@@ -26,5 +26,12 @@ namespace FIT5032_Assignment.Controllers
 
             return View();
         }
+
+        [Authorize(Roles ="Admin")]
+        public ActionResult Admin()
+        {
+            ViewBag.Message = "Admin Page";
+            return View();
+        }
     }
 }

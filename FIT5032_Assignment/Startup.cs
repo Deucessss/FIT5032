@@ -10,5 +10,6 @@ namespace FIT5032_Assignment
         {
             ConfigureAuth(app);
         }
+
     }
 }
